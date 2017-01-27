@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kişileri Getir"
+        android:id="@+id/button_contacts"
+        android:layout_centerHorizontal="true" />
+
+
+    <ListView
+        android:clickable="true"
+        android:layout_below="@id/button_contacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_contacts" />
+</RelativeLayout>
